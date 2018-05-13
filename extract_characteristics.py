@@ -22,7 +22,7 @@ BANDWIDTHS = {'mnist': 3.7926, 'cifar': 0.26, 'svhn': 1.00}
 #               'cifar': [0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000],
 #               'svhn': [0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1274, 0.1000, 0.1000]}
 
-PATH_DATA = "data/"
+PATH_DATA = "../data/"
 PATH_IMAGES = "plots/"
 
 def merge_and_generate_labels(X_pos, X_neg):

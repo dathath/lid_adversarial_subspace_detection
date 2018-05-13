@@ -11,7 +11,7 @@ from util import (random_split, block_split, train_lr, compute_roc)
 DATASETS = ['mnist', 'cifar', 'svhn']
 ATTACKS = ['fgsm', 'bim-a', 'bim-b', 'jsma', 'cw-l2']
 CHARACTERISTICS = ['kd', 'bu', 'lid']
-PATH_DATA = "data/"
+PATH_DATA = "../data/"
 PATH_IMAGES = "plots/"
 
 def load_characteristics(dataset, attack, characteristics):
